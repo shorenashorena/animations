@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+.logo {
+  width: 300px;
+}
+
+.cls-1 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  fill: #ef233c;
+  animation: color-change 4s linear infinite;
+}
+
+.cls-2 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  fill: #ffffff;
+  animation: color-change 4s 2s linear infinite;
+}
+
+@keyframes color-change {
+  0%   { fill: #ff0000; }   
+  25%  { fill: #00ff00; }   
+  50%  { fill: #0000ff; }   
+  75%  { fill: #ffff00; }   
+  100% { fill: #ff0000; }   
+}
